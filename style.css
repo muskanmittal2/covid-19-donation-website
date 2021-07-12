@@ -281,8 +281,8 @@ header.sticky{
 
 .hand-wash .column .box-container .box img{
     width: 15rem;
-    padding: 15rem;
-    height: 1rem;
+    padding: 1px;
+    height: 15rem;
 }
 
 .hand-wash .column .box-container .box h3{
