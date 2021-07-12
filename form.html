@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Donation </h2>
+        <form method="POST"></form>
+        
+        <div class="input-group">
+            <div class="input-box">
+                <h4>First Name</h4>
+                <input type="text" placeholder="First Name" class="name" required>
+                <i class="fa fa-user icon"></i>
+            </div>
+
+            <div class="input-box">
+                <h4>Last Name</h4>
+                <input type="text" placeholder="Last Name" class="name" required>
+                <i class="fa fa-user icon"></i>
+                
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-box">
+                <h4>Email</h4>
+                <input type="email" class="name" placeholder="Email Address" required >
+                <i class="fas fa-envelope icon"></i>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-box">
+                <h4>Phone Number</h4>
+                <input type="text" name="Country Code" placeholder="Country Code" value="+91" size="2">
+                <input type="tel" name="phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-box">
+                <h4>Date Of Birth</h4>
+                <input type="text" placeholder="DD" class="dob">
+                <input type="text" placeholder="MM" class="dob">
+                <input type="text" placeholder="YYYY" class="dob">
+            </div>
+            <div class="input-box">
+                <h4>Gender</h4>
+                <input type="radio" name="gendar" checked class="radio" id="b1">
+                <label for="b1">Male</label>
+                <input type="radio" name="gendar" checked class="radio" id="b2">
+                <label for="b2">Female</label>
+            </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Enter Amount</h4>
+                    <input type="text" placeholder="Amount" class="name" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <button type="submit">Donate</button>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

@@ -339,30 +339,6 @@ header.sticky{
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
     background: url(background-img.jpg) no-repeat;
     background-size: cover;
@@ -395,12 +371,16 @@ header.sticky{
 .footer .box-container .box a{
     font-size: 1.5rem;
     color: var(--dark-blue);
-    padding: 5rem 0;
+    padding: 1rem;
     display: block;
 }
 
 .footer a:hover{
     text-decoration: underline;
+}
+
+.footer a:active{
+    background-color: turquoise;
 }
 
 .footer .credit{
